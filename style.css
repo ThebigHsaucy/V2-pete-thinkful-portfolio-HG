@@ -21,11 +21,35 @@ header {
   text-align: center;
 }
 
+#pete-header {
+  display:inline-block;
+}
+
+#pete-nav {
+  display:inline-block;
+  margin-left:50px;
+}
+
+#contact h2 {
+  text-align:center;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
+}
+
+#about{
+  align:center;
+  text-align: left;
+}
+
+#mtn-image img {
+margin-right:100px;
+margin-bottom:20px;
+
 }
 
 article {
@@ -37,9 +61,24 @@ article div {
   width: 100%;
 }
 
+
+.port-sect {
+float:left;
+width:200px;
+}
+
+#contact {
+  margin-top:125px;
+}
+
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+.port-desc {
+  font-size:14px;
 }
 
 /* Links */
@@ -55,6 +94,10 @@ nav a {
   padding-left: 20px;
 }
 
+footer p{
+  text-align:center;
+}
+
 /* Images */
 img {
   width: 100%;
@@ -65,7 +108,12 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  float:left;
 }
+#mtn-image {
+  padding-left:
+}
+
 
 /* Footer */
 footer {
